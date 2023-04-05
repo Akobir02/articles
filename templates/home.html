@@ -1,0 +1,20 @@
+
+{% extends 'base.html'%}
+
+{% block content%}
+
+
+<div class="container mt-5">
+  <header>
+        <a href="{% url 'index' %}">Home</a> |
+        <a href="{% url 'about' %}">About</a>
+      </header>
+
+
+</div>
+
+
+
+      {% block ss %}
+      {% endblock ss %}
+{% endblock %}
